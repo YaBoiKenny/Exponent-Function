@@ -1,0 +1,12 @@
+#exponential power function
+#create a function that raises an user's number to their exponent
+
+num = ""
+exponent = ""
+
+def raise_to_power(num,exponent):
+    num = float(input("Enter a number: "))
+    exponent = float(input("Enter an exponent: "))
+    return(num**exponent)
+
+print(raise_to_power(num,exponent))
